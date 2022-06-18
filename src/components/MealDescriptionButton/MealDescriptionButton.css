@@ -1,0 +1,24 @@
+.e-two-meal-description-button {
+  appearance: none;
+  padding: 1%;
+  width: 45%;
+  background: inherit;
+  color: inherit;
+  font-size: 1.4rem;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.e-two-meal-description-button:hover {
+  background: black;
+  color: white;
+}
+
+.e-two-meal-description-button:first-child {
+  border-right: 1px solid black;
+}
+
+.e-two-meal-description-button:last-child {
+  border-left: 1px solid black;
+}

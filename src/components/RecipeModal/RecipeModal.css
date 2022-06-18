@@ -1,0 +1,45 @@
+.e-two-recipe-modal {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 70vw;
+  height: 80vh;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  align-items: center;
+  background: white;
+  z-index: 3;
+  overflow-y: auto;
+}
+
+.e-two-recipe-modal__recipe--instructions {
+  white-space: pre-wrap;
+}
+
+.e-two-recipe-modal__close-button {
+  appearance: none;
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  font-family: inherit;
+  color: inherit;
+  align-self: end;
+  cursor: pointer;
+  transition: font-weight 0.1s;
+}
+
+.e-two-recipe-modal__close-button:hover {
+  font-weight: bold;
+}
+
+.e-two-recipe-modal--bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(45, 45, 45, 0.5);
+  z-index: 2;
+}

@@ -1,0 +1,18 @@
+.e-two-meal-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.e-two-meal-description__button-wrapper {
+  margin-bottom: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.e-two-meal-description__content-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

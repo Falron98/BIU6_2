@@ -1,0 +1,26 @@
+.e-two-meal-list-item {
+  padding: 5%;
+  display: flex;
+  width: 80vw;
+}
+
+.e-two-meal-list-item__picture {
+  width: 30%;
+}
+
+.e-two-meal-list-item__picture--img {
+  width: 100%;
+  height: 100%;
+  border: 5px solid;
+}
+
+.e-two-meal-list-item__description {
+  width: 70%;
+  height: auto;
+}
+
+.e-two-meal-list-item__description--header {
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.8rem;
+}

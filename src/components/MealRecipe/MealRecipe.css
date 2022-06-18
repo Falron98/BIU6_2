@@ -1,0 +1,26 @@
+.e-two-meal-recipe {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.e-two-meal-recipe__recipe {
+  margin: 0;
+  text-align: right;
+  white-space: pre-wrap;
+}
+
+.e-two-meal-recipe__read-more {
+  appearance: none;
+  border: none;
+  font-family: inherit;
+  font-size: 1.6rem;
+  color: inherit;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+.e-two-page-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.e-two-page-layout__header {
+  font-size: 3rem;
+}
+
+.e-two-page-layout__exercise-content {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+}

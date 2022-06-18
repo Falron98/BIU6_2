@@ -1,0 +1,10 @@
+.e-two-link-to-page {
+  font-size: 1.6em;
+  color: blue;
+  padding-top: 2%;
+  font-style: normal;
+}
+
+.e-two-link-to-page:hover {
+  text-decoration: underline;
+}

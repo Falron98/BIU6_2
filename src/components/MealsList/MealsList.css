@@ -1,0 +1,18 @@
+.e-two-meals-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.e-two-meals-list__header {
+  margin-bottom: 0;
+  font-size: 3rem;
+}
+
+.e-two-meals-list__list > * {
+  margin-bottom: 5%;
+}
+
+.e-two-meals-list__list > *:last-child {
+  margin-bottom: 0;
+}
